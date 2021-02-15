@@ -453,46 +453,13 @@ section{
 
 .box {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 3;
+    grid-gap: 10px;
     padding: 10px;
   }
 
 
-.grid-item {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
 
-  .grid-item1 {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .grid-item2 {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .grid-item3 {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .grid-item4 {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .grid-item5 {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
 
 img{
     border: black;
