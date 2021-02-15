@@ -1,12 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="en" id="d1">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+        <!-- Custom Stylesheet -->
+        <link rel="stylesheet" href="./style.css"/>
+        <title>Tailoring Management System</title>
+    </head>
+    <body>
+         <!-- Header -->
+         <header>
+                     
+             <!-- Promo -->
+            <div class="promo">
+                <a href="#"><i class="fa fa-google"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <h2><u>The Suit House</u></h2>
+                <h5>Best suiting and fitting</h5>
+                
+            </div>
+
+                 <div class="container">
+                 <input type="checkbox" name="" id="check">
+                 <div class="logo-container">
+                     <h3 class="logo">Suit<span>House</span></h3>
+                 </div>
+
+                 <div class="nav-btn">
+                     <div class="nav-links">
+                         <ul>
+                             <li class="nav-link" style="--i: .6s">
+                                 <a href="#">Home</a>
+                             </li>
+                             <li class="nav-link" style="--i: .85s">
+                                <a href="#work">Our Work</a>
+                             </li>
+                             <li class="nav-link" style="--i: 1.1s">
+                                <a href="#about">About</a>
+                             </li>
+                             <li class="nav-link" style="--i: 1.35s">
+                                <a href="#">Collection</a>
+                             </li>
+                             <li class="nav-link" style="--i: 1.55s">
+                                <a href="#">Team</a>
+                             </li>
+                             <li class="nav-link" style="--i: 1.7s">
+                                <a href="#">Contact</a>
+                             </li>
+                         </ul>
+                     </div>
+                     <div class="log-sign" style="--i: 1.9s">
+                        <a href="login"><i class="fa fa-shopping-cart" ></i></a>
+                         <a href="#" class="btn transparent">Log in</a>
+                     </div>
+                 </div>
+                 <div class="hamburger-menu-container">
+                     <div class="hamburger-menu">
+                         <div></div>
+                     </div>
+                 </div>
+             </div>
+         </header>
+             <main>
+                 <section>
+                     <div class="overlay"></div>
+                 </section>
+             </main>
+
+             <!-- Image Slider -->
+
+             <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="img/1.jpg" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="img/2.png" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="img/1.jpg" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+
+                <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) {
+                      var i;
+                      var slides = document.getElementsByClassName("mySlides");
+                      var dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                          slides[i].style.display = "none";  
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                          dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                    }
+                    </script><hr>
+
+                    <!-- Our Work -->
+
+                    <section id="work">
+                        <div class="hname">
+                            <h4><u>Our Work</u></h4><br>
+                        <div class="box">
+                            <div class="grid-item"><a href="#"><img src="img/3.jpg"></a> </div>
+                            <div class="grid-item1"><a href="#"><img src="img/3.jpg"></a></div>
+                            <div class="grid-item2"><a href="#"><img src="img/3.jpg"></a></div>  
+                            <div class="grid-item3"><a href="#"><img src="img/3.jpg"></a></div>
+                            <div class="grid-item4"><a href="#"><img src="img/3.jpg"></a></div>
+                            <div class="grid-item5"><a href="#"><img src="img/3.jpg"></a></div>
+                                ></a></div>
+                        </div>
+                    </div>
+                    </section>
+                   
+
+          <!-- About Us -->
+          <section id="about">
+            <div class="about container" id="about">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- <img src="img/3.jpg" class="profile-img"> -->
+                        <h3><u>What We Do</u></h3><br>
+                        <p>In our suit house you can customize and design complete Tailoring shirts, pants, waistcoats, daura/Surwal, Coats, Reviews, Pricing And Alternatives via a fully dynamic web application. Suit House helps to manage all orders/sales, customers, income, expenses, measurements, so you can keep things organized and get detailed report of your fashion business while you concentrate on other important things. Suit House Management allows you to keep track of customer measurements.</p><br>
+                        <p>The Suit House– Fashion House Management System – Tailoring shirts, pants, waistcoats, coats, Reviews, Pricing And Alternatives have found the perfect balance between usability, design and code robustness. The Suit House/ online suit management system is a powerful web application which is affordable and readymade for online custom designs and tailoring. It is fully responsive and works perfectly on all devices. Once a user has made a design, they will get an option to enter their measurements for that particular order. Our excellent measurement tailoring shop provide an easy approach to take accurate measurements. Once the order is completed, the user can get complete / detailed info.</p> 
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+    </body>
 </html>
