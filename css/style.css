@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+:root {
+    --primary-color: #C4C4C4;
+    --primary-font-color: #000;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -462,7 +468,6 @@ section{
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    bo
   }
 
   .grid-item2 {
@@ -494,6 +499,8 @@ img{
     border-radius: 10px;
   }
 
+  
+
   /* About us */
 
   #about{
@@ -514,5 +521,71 @@ img{
 }
 
 
+/* Sign in */
+.sign-in {
+    border-radius: 10px;
+    background: var(--primary-color);
+    margin: 100px;
+    padding: 50px;
+}
 
+form {
+    line-height: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
+.sign {
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.create {
+    float: right;
+}
+
+label {
+    font-size: 16px;
+}
+
+.create {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+a {
+    font-size: 16px;
+}
+
+.forget {
+    text-decoration: none;
+    float: right;
+    color: var(--primary-font-color);
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button {
+    font-size: 16px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    background: #fff;
+
+}
+
+/* Register */
+
+.create-acc {
+    border-radius: 10px;
+    background: var(--primary-color);
+    margin: 100px;
+    padding: 50px;
+}
