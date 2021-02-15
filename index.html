@@ -3,19 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
         <meta name="description" content="Best Custom Suits">
         <meta name="keywords" content="Custom Suits, Shirts, Pants">
         
+=======
+>>>>>>> 021e1ef5eb160e3e57ff90e2f6d700adaa87e06d
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
         <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
         <!-- Custom Stylesheet -->
+<<<<<<< HEAD
         <link rel="stylesheet" href="/css/style.css"/>
+=======
+        <link rel="stylesheet" href="./style.css"/>
+>>>>>>> 021e1ef5eb160e3e57ff90e2f6d700adaa87e06d
         <title>Tailoring Management System</title>
     </head>
     <body>
          <!-- Header -->
+<<<<<<< HEAD
         <header>
+=======
+         <header>
+>>>>>>> 021e1ef5eb160e3e57ff90e2f6d700adaa87e06d
                      
              <!-- Promo -->
             <div class="promo">
@@ -23,6 +34,7 @@
                 <a href="#"><i class="fa fa-instagram"></i></a>
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <h2><u>The Suit House</u></h2>
+<<<<<<< HEAD
                 <h5>Best suiting and fitting</h5> 
             </div>
             <div class="container">
@@ -156,6 +168,142 @@
 
         <!-- About Us -->
         <section id="about">
+=======
+                <h5>Best suiting and fitting</h5>
+                
+            </div>
+
+                 <div class="container">
+                 <input type="checkbox" name="" id="check">
+                 <div class="logo-container">
+                     <h3 class="logo">Suit<span>House</span></h3>
+                 </div>
+
+                 <div class="nav-btn">
+                     <div class="nav-links">
+                         <ul>
+                             <li class="nav-link" style="--i: .6s">
+                                 <a href="#">Home</a>
+                             </li>
+                             <li class="nav-link" style="--i: .85s">
+                                <a href="#work">Our Work</a>
+                             </li>
+                             <li class="nav-link" style="--i: 1.1s">
+                                <a href="#about">About</a>
+                             </li>
+                             <li class="nav-link" style="--i: 1.35s">
+                                <a href="#">Collection</a>
+                             </li>
+                             <li class="nav-link" style="--i: 1.55s">
+                                <a href="#">Team</a>
+                             </li>
+                             <li class="nav-link" style="--i: 1.7s">
+                                <a href="#">Contact</a>
+                             </li>
+                         </ul>
+                     </div>
+                     <div class="log-sign" style="--i: 1.9s">
+                        <a href="login"><i class="fa fa-shopping-cart" ></i></a>
+                         <a href="#" class="btn transparent">Log in</a>
+                     </div>
+                 </div>
+                 <div class="hamburger-menu-container">
+                     <div class="hamburger-menu">
+                         <div></div>
+                     </div>
+                 </div>
+             </div>
+         </header>
+             <main>
+                 <section>
+                     <div class="overlay"></div>
+                 </section>
+             </main>
+
+             <!-- Image Slider -->
+
+             <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="img/1.jpg" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="img/2.png" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="img/1.jpg" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+
+                <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) {
+                      var i;
+                      var slides = document.getElementsByClassName("mySlides");
+                      var dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                          slides[i].style.display = "none";  
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                          dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                    }
+                    </script><hr>
+
+                    <!-- Our Work -->
+
+                    <section id="work">
+                        <div class="hname">
+                            <h4><u>Our Work</u></h4><br>
+                        <div class="box">
+                            <div class="grid-item"><a href="#"><img src="img/3.jpg"></a> </div>
+                            <div class="grid-item1"><a href="#"><img src="img/3.jpg"></a></div>
+                            <div class="grid-item2"><a href="#"><img src="img/3.jpg"></a></div>  
+                            <div class="grid-item3"><a href="#"><img src="img/3.jpg"></a></div>
+                            <div class="grid-item4"><a href="#"><img src="img/3.jpg"></a></div>
+                            <div class="grid-item5"><a href="#"><img src="img/3.jpg"></a></div>
+                                ></a></div>
+                        </div>
+                    </div>
+                    </section>
+                   
+
+          <!-- About Us -->
+          <section id="about">
+>>>>>>> 021e1ef5eb160e3e57ff90e2f6d700adaa87e06d
             <div class="about container" id="about">
                 <div class="row">
                     <div class="col-md-6">
@@ -167,6 +315,7 @@
                 </div>
             </div>
         </section>
+<<<<<<< HEAD
     
         <section class="contact-us">
             <div class="map">
@@ -192,3 +341,8 @@
 
     </body>
 </html>
+=======
+       
+    </body>
+</html>
+>>>>>>> 021e1ef5eb160e3e57ff90e2f6d700adaa87e06d
