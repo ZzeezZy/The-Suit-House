@@ -4,6 +4,10 @@
     --primary-color: #C4C4C4;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -35,11 +39,11 @@ a{
     padding: 0.5rem 0;
 }
 
+
 .promo a{
     float: right;
     margin: 12px 10px;
-    color: #000;
-    
+    color: #000;    
 }
 
 .promo a .fa-google {
@@ -612,4 +616,88 @@ footer {
     background: #fff5d0;
     text-align: center;
     padding: 15px;
+}
+
+/* Detail */
+
+.detail {
+    overflow: hidden;
+    margin-top: 100px;
+    float: left;
+}
+
+.detail .img-detail img {
+    float: left;
+    width: 50%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 10% 10%;
+}
+
+.information {
+    margin-top: 20px;
+    background: var(--primary-color);
+    height: 480px;
+
+}
+
+.information h1 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.information p {
+    padding: 20px 100px 0px 900px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* pics */
+
+.collection {
+    margin-top: 650px;
+}
+
+.collection-heading h1 {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.imgs img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 10% 5%;
+    padding-bottom: 30px;
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    grid-gap: 5px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.collection-heading .line {
+    margin-left: 47%;
+    margin-top: -20px;
+    object-position: center;
+    margin-bottom: 20px;
+}
+
+
+/* Line */
+
+.line {
+    background: #000;
+    border: 1px #000 solid;
+    width: 100px;
+    
 }
