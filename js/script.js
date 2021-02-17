@@ -29,11 +29,11 @@ var slideIndex = 1;
 
 // Map
 
-function myMap() {
-    var mapProp = {
-        center:new google.maps.LatLng(27.712021,85.312950),
-        zoom:5,
-    };
+let map;
 
-    var map = new google.maps.Map(document.getElementById("google-map"),mapProp);
+function initMap() {
+  map = new google.maps.Map(document.getElementById("google-map"), {
+    center: { lat: 27.71876515, lng: 85.35173714 },
+    zoom: 8,
+  });
 }

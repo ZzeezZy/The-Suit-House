@@ -473,7 +473,7 @@ a img {
     align-content: center;
     grid-gap: 5px;
     padding: 10px;
-  }
+}
 
 .grid-item {
     padding-bottom: 30px;
@@ -586,9 +586,12 @@ button {
     background: var(--primary-color);
 }
 
-#google-map {
+.map {
     float: left;
-    width: 50%;
+}
+
+iframe {
+    width: 900px;
     height: 300px;
 }
 
