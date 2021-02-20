@@ -511,78 +511,206 @@ img{
 
 
 /* Sign in */
-.sign-in {
-    border-radius: 20px;
-    background: var(--primary-color);
-    margin: 200px 300px;
-    padding: 40px 0px;
+
+
+.ig img{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ig h3{
+    text-align: center;
+    font-size: 20px;
 }
 
-form {
-    line-height: 20px;
-    margin-left: 80px;
-    margin-right: 50px;
-}
-
-.sign {
-    padding-left: 40px;
-    font-size: 25px;
-}
-
-.create {
-    float: right;
-}
-
-label {
-    font-size: 16px;
-}
-
-.create {
-    text-decoration: none;
-    color: #000;
-    font-size: 14px;
-}
-
-a {
-    font-size: 16px;
-}
-
-.forget {
-    text-decoration: none;
-    float: right;
-    color: #000;
-    font-size: 14px;
-}
-
-input {
+.sign-in{
+    top: 0;
+    border: black 1px solid;
     border-radius: 10px;
-    border: none;
-    width: 250px;
-    height: 30px;
+    background-color: #fff5d0;
+    margin: 10px;
+    width: 350px;
+    height: 500px;
+    margin-left: 38%;
+    
 
 }
 
-button:hover {
-    cursor: pointer;
+.sign{
+    margin: 20px;
+}
+.sign input[type=text]{
+    top: 20px;
+    margin-left: 30px;
+    border: black 1px solid;
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+    outline: none;
+    
+}
+
+
+.forget h6{
+    float: right;
+    padding-right: 50px;
+    font-size: 12px;
+    color: #4281ca;
+
+}
+
+.sign input[type=password]{
+    margin-left: 30px;
+    border: black 1px solid;
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    outline: none;
+}
+
+.Rme h6{
+    float: right;
+    padding-right: 50px;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #4281ca;
+
 }
 
 button {
-    font-size: 16px;
-    padding: 5px 20px 5px 20px;
+    margin-left: 35px;
+    margin-top: 10px;
+    padding: 5px 40px;
+   background-color: green;
+   color: white;
+   font-size: 15px;
+   border: none;
+   border-radius: 10px;
+   outline: none;
+   cursor: pointer;
+   display: flex;
+}
+  
+.loginwith p {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+  }
+
+  .fb {
+    background-color: #3B5998;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .instagram {
+    background-color: #55ACEE;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .twitter {
+    background-color: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background-color: #dd4b39;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .create {
+      text-align: center;
+      margin-left: 50px;
+  }
+
+    /*Register  */
+
+.createaccount {
+    margin-top: 150px;
+    border: black 1px solid;
     border-radius: 10px;
-    background: #fff;
+    background-color: #fff5d0;
+    width: 700px;
+    height: 700px;
+    margin-left: 25%; 
+}
+
+.createaccount i{
+    
+} 
+
+.createaccount h2{
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.createaccount i{
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text]{
+    width: 45%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    top: 20px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
 
 }
 
-/* Register */
 
-.create-acc {
+input[type=password], input[type=email],input[type=number]{
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    top: 20px;
+    margin-left: 60px;
+    border: none;
     border-radius: 10px;
-    background: var(--primary-color);
-    margin: 100px;
-    padding: 50px;
-}
+    outline: none;
+  }
 
+  .registerbtn{
+      
+    margin-left: 35%;
+    margin-top: 30px;
+    padding: 5px 40px;
+   background-color: green;
+   color: white;
+   font-size: 15px;
+   border: none;
+   border-radius: 10px;
+   outline: none;
+   cursor: pointer;
+   display: flex;
+
+  }
 
 /* Contact Us */
 
