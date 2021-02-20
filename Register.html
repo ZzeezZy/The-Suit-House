@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Account</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
         <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
@@ -26,15 +26,12 @@
    <div class="container">
        <input type="checkbox" name="" id="check">
        <div class="logo-container">
-           <h3 class="logo">Suit<span>House</span></h3>
+        <h3 class="logo"><a href="#"><h5><i class="fa fa-home"></i>Home</h5></a></h3>
        </div>
 
        <div class="nav-btn">
            <div class="nav-links">
                <ul>
-                   <li class="nav-link" style="--i: .6s">
-                       <a href="index.html">Home</a>
-                   </li>
                    <li class="nav-link" style="--i: .85s">
                        <a href="#work">Our Work</a>
                    </li>
@@ -55,7 +52,6 @@
            
            <div class="log-sign" style="--i: 1.9s">
                <i class="fa fa-shopping-cart"></i>
-               <a href="Login.html" class="btn transparent">Log in</a>
            </div>
        </div>
        
@@ -67,25 +63,90 @@
    </div>
 </header>
 
-    <div class="create-acc">
-        <h1 class="sign">Create a Account</h1>
-        <form method="POST" action="#">
-            <label for="username">Username</label><br>
-            <input type="text" name="username" id="username"><br>
-            <label for="password">Password</label><br>
-            <input type="password" name="password" id="password"><br>
-            <label for="email">Email</label><br>
-            <input type="email" name="email" id="email"><br>
-            <label for="phone">Phone no.</label><br>
-            <input type="number" name="phone" id="phone"><br>
-            <label for="address">Address</label><br>
-            <input type="text" name="address" id="address"><br>
-            <label for="password">Password</label><br>
-            <input type="password" name="password" id="password"><br>
-            <label for="re-pass">Confirm Password</label><br>
-            <input type="password" name="re-pass" id="re-pass"><br>
-            <button type="submit">Register</button>
-        </form>
+<main>
+    <section>
+        <div class="overlay"></div>
+        </section>
+</main>
+  
+
+<!-- Register -->
+    <div class="createaccount">
+        <a href="Login.html"><i class="fa fa-long-arrow-left"></i></a>
+        <h2><u>Create A Account</u></h2>
+        <div class="bio">
+            <input type="text" placeholder="FirstName">
+            <input type="text" placeholder="LastNname"><br>
+            <input type="email" placeholder="Example@gmail.com"><br>
+            <input type="password" name="password" id="password" placeholder="  Enter Password">
+            <input type="password" name="password" id="password" placeholder="  Confirm Password">
+            <input type="number" id="number" placeholder="Phone Number"><br>
+
+            <input type="text" id="address" placeholder="Address">
+            <label for="gender">Gender:</label>
+            <input type="radio" value="male" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" value="female" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" value="other" id="other" name="gender">
+            <label for="other">Other</label><br>
+            <label for="dob">Date oF Birth:</label>
+            <select name="months">
+                <option value="month">Month</option>
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="March">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="augest">Augest</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+            </select>
+
+            <select name="days">
+                <option value="day">Day</option>
+                <option value="sunday">Sunday</option>
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+                <option value="saturday">Saturday</option>
+             </select>
+
+             <select name="years">
+                 <option value="years">Year</option>
+                 <option value="1991">1991</option>
+                 <option value="1992">1992</option>
+                 <option value="1993">1993</option>
+                 <option value="1994">1994</option>
+                 <option value="1995">1995</option>
+                 <option value="1996">1996</option>
+                 <option value="1997">1997</option>
+                 <option value="1998">1998</option>
+                 <option value="1999">1999</option>
+                 <option value="2000">2000</option>
+                 <option value="2001">2001</option>
+                 <option value="2002">2002</option>
+                 <option value="2003">2003</option>
+                 <option value="2004">2004</option>
+                 <option value="2005">2005</option>
+                 <option value="2006">2006</option>
+                 <option value="2007">2007</option>
+                 <option value="2008">2008</option>
+                 <option value="2009">2009</option>
+                 <option value="2010">2010</option>
+                 
+             </select><br>
+
+         <button type="submit" class="registerbtn">Register</button>
+            
+        </div>
     </div>
+
 </body>
 </html>
